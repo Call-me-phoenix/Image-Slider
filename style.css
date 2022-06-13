@@ -25,6 +25,7 @@
   color: white;
   opacity: 0.8;
   cursor: pointer;
+  display: none;
 }
 #nextBtn{
   position: absolute;
@@ -35,4 +36,25 @@
   color: white;
   opacity: 0.8;
   cursor: pointer;
+  display: none;
+}
+.circle{
+  position: absolute;
+  list-style: none;
+  bottom: 10px;
+  left: 45%;
+}
+.circle li {
+  float: left;
+  width: 8px;
+  height: 8px;
+  /*background-color: #fff;*/
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin: 0 3px;
+  border-radius: 50%;
+  /*鼠标经过显示小手*/
+  cursor: pointer;
+}
+.current{
+  background-color: #fff;
 }
